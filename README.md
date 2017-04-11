@@ -1,9 +1,5 @@
 Salary slip kata
 ================
-##
-This is a C# implementation of salaryslipkata proposed by SandroMancuso
-https://github.com/sandromancuso/salaryslipkata
-
 ## Problem description: Salary slip generator for UK companies.
 
   A typical salary slip contains employee details like employee id, employee name and their monthly salary details like their gross salary, national insurance contributions, tax-free allowance, taxable income and tax payable.
