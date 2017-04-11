@@ -6,14 +6,21 @@ namespace salaryslipkata.test
     public class SalaryGeneratorTest
     {
         [Test()]
-        public void GenerateSalary()
+        public void GenerateSalaryForJohnDoeWithAnnualGrosSalaryOf_5000pound()
         {
-            Employee johnDoe = new Employee();
+            Employee johnDoe = new Employee() {
+                ID = 12345,
+                Name = "John Doe",
+                AnnualGrossSalary = 5000.00m
+            };
             ISalarySlipGenerator generator = new SalarySlipGenerator();
 
             SalarySlip salarySlip = generator.GenerateFor(johnDoe);
 
             Assert.NotNull(salarySlip);
+            Assert.AreEqual(12345, salarySlip.EmployeeID);
+            Assert.AreEqual("John Doe", salarySlip.EmployeeName);
+            Assert.AreEqual(416.67, salarySlip.MonthlyGrossSalary);
         }
 
     }

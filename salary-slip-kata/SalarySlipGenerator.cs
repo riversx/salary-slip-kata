@@ -1,7 +1,7 @@
 ﻿using System;
 namespace salaryslipkata
 {
-    public class SalarySlipGenerator: ISalarySlipGenerator
+    public class SalarySlipGenerator : ISalarySlipGenerator
     {
         public SalarySlipGenerator()
         {
@@ -9,7 +9,11 @@ namespace salaryslipkata
 
         public SalarySlip GenerateFor(Employee employee)
         {
-            throw new NotImplementedException();
+            SalarySlip salarySlip = new SalarySlip();
+            salarySlip.EmployeeID = employee.ID;
+            salarySlip.EmployeeName = employee.Name;
+            salarySlip.MonthlyGrossSalary = Math.Round(employee.AnnualGrossSalary / 12, 2);
+            return salarySlip;
         }
     }
 }
