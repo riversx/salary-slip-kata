@@ -1,6 +1,6 @@
-namespace salaryslipkata
+﻿namespace salaryslipkata
 {
-	public class Employee
-	{
-	}
+    public class Employee
+    {
+    }
 }

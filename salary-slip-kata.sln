@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "salary-slip-kata", "salary-slip-kata\salary-slip-kata.csproj", "{99DBB6CF-C827-4AAC-A1F7-0FD1D8669A09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "salary-slip-kata.test", "salary-slip-kata.test\salary-slip-kata.test.csproj", "{3CBA2F90-C788-44FE-B62D-D8FD31B8BED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{99DBB6CF-C827-4AAC-A1F7-0FD1D8669A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99DBB6CF-C827-4AAC-A1F7-0FD1D8669A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99DBB6CF-C827-4AAC-A1F7-0FD1D8669A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBA2F90-C788-44FE-B62D-D8FD31B8BED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBA2F90-C788-44FE-B62D-D8FD31B8BED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBA2F90-C788-44FE-B62D-D8FD31B8BED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBA2F90-C788-44FE-B62D-D8FD31B8BED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

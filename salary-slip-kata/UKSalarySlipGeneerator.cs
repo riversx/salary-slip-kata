@@ -2,13 +2,10 @@
 namespace salaryslipkata
 {
 
-    public class SalarySlipGenerator
-    {
-
+    public class UKSalarySlipGenerator: SalarySlipGenerator
         public SalarySlip GenerateFor(Employee employee)
         {
             return new SalarySlip();
         }
     }
-
 }
