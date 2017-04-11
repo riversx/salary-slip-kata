@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "salary-slip-kata", "salary-slip-kata\salary-slip-kata.csproj", "{99DBB6CF-C827-4AAC-A1F7-0FD1D8669A09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99DBB6CF-C827-4AAC-A1F7-0FD1D8669A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DBB6CF-C827-4AAC-A1F7-0FD1D8669A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DBB6CF-C827-4AAC-A1F7-0FD1D8669A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DBB6CF-C827-4AAC-A1F7-0FD1D8669A09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
